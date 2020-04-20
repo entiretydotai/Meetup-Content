@@ -1,0 +1,10 @@
+Research paper to go for
+
+1. Achieving Open Vocabulary Neural Machine Translation
+with Hybrid Word-Character Models
+
+https://arxiv.org/pdf/1604.00788.pdf
+
+2. Smart Reply: Automated Response Suggestion for Email
+
+https://www.kdd.org/kdd2016/papers/files/Paper_1069.pdf
