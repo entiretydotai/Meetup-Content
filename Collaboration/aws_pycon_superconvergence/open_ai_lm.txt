@@ -1,0 +1,693 @@
+For Epoch [0|100] : 
+
+Learning Rate is 0.0015 momentum is 0.95
+
+Train Loss: 8.116
+
+Val. Loss: 6.704
+For Epoch [1|100] : 
+
+Learning Rate is 0.00245 momentum is 0.9466666666666667
+
+Train Loss: 6.947
+
+Val. Loss: 6.244
+For Epoch [2|100] : 
+
+Learning Rate is 0.0034 momentum is 0.9433333333333332
+
+Train Loss: 6.651
+
+Val. Loss: 6.064
+For Epoch [3|100] : 
+
+Learning Rate is 0.00435 momentum is 0.94
+
+Train Loss: 6.383
+
+Val. Loss: 5.838
+For Epoch [5|100] : 
+
+Learning Rate is 0.006249999999999999 momentum is 0.9333333333333333
+
+Train Loss: 6.285
+
+Val. Loss: 5.746
+For Epoch [6|100] : 
+
+Learning Rate is 0.0072 momentum is 0.9299999999999999
+
+Train Loss: 6.197
+
+Val. Loss: 5.665
+For Epoch [7|100] : 
+
+Learning Rate is 0.00815 momentum is 0.9266666666666666
+
+Train Loss: 6.121
+
+Val. Loss: 5.596
+For Epoch [8|100] : 
+
+Learning Rate is 0.009099999999999999 momentum is 0.9233333333333333
+
+Train Loss: 6.051
+
+Val. Loss: 5.534
+For Epoch [9|100] : 
+
+Learning Rate is 0.010049999999999998 momentum is 0.9199999999999999
+
+Train Loss: 5.988
+
+Val. Loss: 5.483
+For Epoch [10|100] : 
+
+Learning Rate is 0.010999999999999998 momentum is 0.9166666666666666
+
+Train Loss: 5.931
+
+Val. Loss: 5.433
+For Epoch [11|100] : 
+
+Learning Rate is 0.011949999999999999 momentum is 0.9133333333333333
+
+Train Loss: 5.877
+
+Val. Loss: 5.393
+For Epoch [12|100] : 
+
+Learning Rate is 0.0129 momentum is 0.9099999999999999
+
+Train Loss: 5.828
+
+Val. Loss: 5.376
+For Epoch [13|100] : 
+
+Learning Rate is 0.01385 momentum is 0.9066666666666666
+
+Train Loss: 5.781
+
+Val. Loss: 5.315
+For Epoch [14|100] : 
+
+Learning Rate is 0.014799999999999999 momentum is 0.9033333333333333
+
+Train Loss: 5.738
+
+Val. Loss: 5.289
+For Epoch [15|100] : 
+
+Learning Rate is 0.01575 momentum is 0.8999999999999999
+
+Train Loss: 5.699
+
+Val. Loss: 5.258
+For Epoch [16|100] : 
+
+Learning Rate is 0.0167 momentum is 0.8966666666666666
+
+Train Loss: 5.661
+
+Val. Loss: 5.243
+For Epoch [17|100] : 
+
+Learning Rate is 0.01765 momentum is 0.8933333333333333
+
+Train Loss: 5.622
+
+Val. Loss: 5.201
+For Epoch [18|100] : 
+
+Learning Rate is 0.0186 momentum is 0.89
+
+Train Loss: 5.588
+
+Val. Loss: 5.163
+For Epoch [19|100] : 
+
+Learning Rate is 0.019549999999999998 momentum is 0.8866666666666666
+
+Train Loss: 5.556
+
+Val. Loss: 5.148
+For Epoch [20|100] : 
+
+Learning Rate is 0.020499999999999997 momentum is 0.8833333333333333
+
+Train Loss: 5.523
+
+Val. Loss: 5.122
+For Epoch [21|100] : 
+
+Learning Rate is 0.021449999999999997 momentum is 0.88
+
+Train Loss: 5.491
+
+Val. Loss: 5.118
+For Epoch [22|100] : 
+
+Learning Rate is 0.0224 momentum is 0.8766666666666667
+
+Train Loss: 5.461
+
+Val. Loss: 5.094
+For Epoch [23|100] : 
+
+Learning Rate is 0.02335 momentum is 0.8733333333333333
+
+Train Loss: 5.435
+
+Val. Loss: 5.057
+For Epoch [24|100] : 
+
+Learning Rate is 0.024300000000000002 momentum is 0.87
+
+Train Loss: 5.402
+
+Val. Loss: 5.035
+For Epoch [25|100] : 
+
+Learning Rate is 0.02525 momentum is 0.8666666666666667
+
+Train Loss: 5.378
+
+Val. Loss: 5.032
+For Epoch [26|100] : 
+
+Learning Rate is 0.0262 momentum is 0.8633333333333333
+
+Train Loss: 5.349
+
+Val. Loss: 5.001
+For Epoch [27|100] : 
+
+Learning Rate is 0.02715 momentum is 0.86
+
+Train Loss: 5.322
+
+Val. Loss: 4.987
+For Epoch [28|100] : 
+
+Learning Rate is 0.0281 momentum is 0.8566666666666667
+
+Train Loss: 5.296
+
+Val. Loss: 4.974
+For Epoch [29|100] : 
+
+Learning Rate is 0.02905 momentum is 0.8533333333333333
+
+Train Loss: 5.273
+
+Val. Loss: 4.958
+For Epoch [30|100] : 
+
+Learning Rate is 0.03 momentum is 0.85
+
+Train Loss: 5.237
+
+Val. Loss: 4.928
+For Epoch [31|100] : 
+
+Learning Rate is 0.029984971518129122 momentum is 0.8500503466729342
+
+Train Loss: 5.213
+
+Val. Loss: 4.926
+For Epoch [32|100] : 
+
+Learning Rate is 0.029939916337878944 momentum is 0.850201285300238
+
+Train Loss: 5.184
+
+Val. Loss: 4.888
+For Epoch [33|100] : 
+
+Learning Rate is 0.029864925194386428 momentum is 0.8504525119116032
+
+Train Loss: 5.157
+
+Val. Loss: 4.865
+For Epoch [34|100] : 
+
+Learning Rate is 0.029760149109834547 momentum is 0.8508035205700685
+
+Train Loss: 5.132
+
+Val. Loss: 4.868
+For Epoch [35|100] : 
+
+Learning Rate is 0.029625799089313714 momentum is 0.8512536043909088
+
+Train Loss: 5.107
+
+Val. Loss: 4.840
+For Epoch [36|100] : 
+
+Learning Rate is 0.029462145695885608 momentum is 0.8518018569652073
+
+Train Loss: 5.084
+
+Val. Loss: 4.841
+For Epoch [37|100] : 
+
+Learning Rate is 0.029269518505705167 momentum is 0.8524471741852423
+
+Train Loss: 5.057
+
+Val. Loss: 4.817
+For Epoch [38|100] : 
+
+Learning Rate is 0.029048305444298077 momentum is 0.8531882564680131
+
+Train Loss: 5.033
+
+Val. Loss: 4.800
+For Epoch [39|100] : 
+
+Learning Rate is 0.028798952005330402 momentum is 0.8540236113724274
+
+Train Loss: 5.011
+
+Val. Loss: 4.774
+For Epoch [40|100] : 
+
+Learning Rate is 0.028521960353443603 momentum is 0.854951556604879
+
+Train Loss: 4.988
+
+Val. Loss: 4.769
+For Epoch [41|100] : 
+
+Learning Rate is 0.028217888312961813 momentum is 0.8559702234071631
+
+Train Loss: 4.963
+
+Val. Loss: 4.759
+For Epoch [42|100] : 
+
+Learning Rate is 0.02788734824450785 momentum is 0.8570775603199067
+
+Train Loss: 4.941
+
+Val. Loss: 4.749
+For Epoch [43|100] : 
+
+Learning Rate is 0.02753100581179044 momentum is 0.8582713373139348
+
+Train Loss: 4.921
+
+Val. Loss: 4.730
+For Epoch [44|100] : 
+
+Learning Rate is 0.02714957864104609 momentum is 0.8595491502812526
+
+Train Loss: 4.900
+
+Val. Loss: 4.729
+For Epoch [45|100] : 
+
+Learning Rate is 0.026743834875835346 momentum is 0.8609084258765984
+
+Train Loss: 4.879
+
+Val. Loss: 4.702
+For Epoch [46|100] : 
+
+Learning Rate is 0.026314591630103894 momentum is 0.8623464266998194
+
+Train Loss: 4.855
+
+Val. Loss: 4.693
+For Epoch [47|100] : 
+
+Learning Rate is 0.025862713342623817 momentum is 0.8638602568086304
+
+Train Loss: 4.836
+
+Val. Loss: 4.684
+For Epoch [48|100] : 
+
+Learning Rate is 0.025389110036128957 momentum is 0.8654468675506567
+
+Train Loss: 4.816
+
+Val. Loss: 4.674
+For Epoch [49|100] : 
+
+Learning Rate is 0.02489473548465021 momentum is 0.8671030637030144
+
+Train Loss: 4.796
+
+Val. Loss: 4.659
+For Epoch [50|100] : 
+
+Learning Rate is 0.024380585292741598 momentum is 0.8688255099070633
+
+Train Loss: 4.777
+
+Val. Loss: 4.652
+For Epoch [51|100] : 
+
+Learning Rate is 0.023847694890465163 momentum is 0.8706107373853763
+
+Train Loss: 4.756
+
+Val. Loss: 4.637
+For Epoch [52|100] : 
+
+Learning Rate is 0.02329713744817263 momentum is 0.8724551509273948
+
+Train Loss: 4.737
+
+Val. Loss: 4.628
+For Epoch [53|100] : 
+
+Learning Rate is 0.02273002171528315 momentum is 0.8743550361297047
+
+Train Loss: 4.720
+
+Val. Loss: 4.619
+For Epoch [54|100] : 
+
+Learning Rate is 0.022147489787409505 momentum is 0.87630656687635
+
+Train Loss: 4.702
+
+Val. Loss: 4.611
+For Epoch [55|100] : 
+
+Learning Rate is 0.021550714806329554 momentum is 0.878305813044122
+
+Train Loss: 4.684
+
+Val. Loss: 4.605
+For Epoch [56|100] : 
+
+Learning Rate is 0.02094089859743481 momentum is 0.8803487484173038
+
+Train Loss: 4.667
+
+Val. Loss: 4.597
+For Epoch [57|100] : 
+
+Learning Rate is 0.020319269249414042 momentum is 0.8824312587959329
+
+Train Loss: 4.649
+
+Val. Loss: 4.583
+For Epoch [58|100] : 
+
+Learning Rate is 0.01968707864104609 momentum is 0.8845491502812526
+
+Train Loss: 4.632
+
+Val. Loss: 4.577
+For Epoch [59|100] : 
+
+Learning Rate is 0.019045599920082625 momentum is 0.8866981577216662
+
+Train Loss: 4.616
+
+Val. Loss: 4.572
+For Epoch [60|100] : 
+
+Learning Rate is 0.01839612493929799 momentum is 0.8888739533021842
+
+Train Loss: 4.600
+
+Val. Loss: 4.567
+For Epoch [61|100] : 
+
+Learning Rate is 0.017739961654869654 momentum is 0.8910721552600681
+
+Train Loss: 4.585
+
+Val. Loss: 4.559
+For Epoch [62|100] : 
+
+Learning Rate is 0.01707843149232851 momentum is 0.8932883367091172
+
+Train Loss: 4.569
+
+Val. Loss: 4.553
+For Epoch [63|100] : 
+
+Learning Rate is 0.016412866685383744 momentum is 0.8955180345548283
+
+Train Loss: 4.555
+
+Val. Loss: 4.546
+For Epoch [64|100] : 
+
+Learning Rate is 0.015744607592981436 momentum is 0.8977567584824742
+
+Train Loss: 4.540
+
+Val. Loss: 4.540
+For Epoch [65|100] : 
+
+Learning Rate is 0.015075 momentum is 0.8999999999999999
+
+Train Loss: 4.527
+
+Val. Loss: 4.535
+For Epoch [66|100] : 
+
+Learning Rate is 0.01440539240701857 momentum is 0.9022432415175257
+
+Train Loss: 4.513
+
+Val. Loss: 4.530
+For Epoch [67|100] : 
+
+Learning Rate is 0.013737133314616257 momentum is 0.9044819654451717
+
+Train Loss: 4.499
+
+Val. Loss: 4.525
+For Epoch [68|100] : 
+
+Learning Rate is 0.013071568507671497 momentum is 0.9067116632908827
+
+Train Loss: 4.487
+
+Val. Loss: 4.521
+For Epoch [69|100] : 
+
+Learning Rate is 0.01241003834513035 momentum is 0.9089278447399318
+
+Train Loss: 4.474
+
+Val. Loss: 4.516
+For Epoch [70|100] : 
+
+Learning Rate is 0.011753875060702008 momentum is 0.9111260466978157
+
+Train Loss: 4.463
+
+Val. Loss: 4.510
+For Epoch [71|100] : 
+
+Learning Rate is 0.011104400079917375 momentum is 0.9133018422783337
+
+Train Loss: 4.451
+
+Val. Loss: 4.507
+For Epoch [72|100] : 
+
+Learning Rate is 0.010462921358953912 momentum is 0.9154508497187474
+
+Train Loss: 4.440
+
+Val. Loss: 4.502
+For Epoch [73|100] : 
+
+Learning Rate is 0.009830730750585959 momentum is 0.9175687412040671
+
+Train Loss: 4.429
+
+Val. Loss: 4.499
+For Epoch [74|100] : 
+
+Learning Rate is 0.009209101402565192 momentum is 0.9196512515826961
+
+Train Loss: 4.418
+
+Val. Loss: 4.495
+For Epoch [75|100] : 
+
+Learning Rate is 0.008599285193670446 momentum is 0.9216941869558779
+
+Train Loss: 4.408
+
+Val. Loss: 4.492
+For Epoch [76|100] : 
+
+Learning Rate is 0.008002510212590496 momentum is 0.9236934331236499
+
+Train Loss: 4.399
+
+Val. Loss: 4.488
+For Epoch [77|100] : 
+
+Learning Rate is 0.007419978284716851 momentum is 0.9256449638702953
+
+Train Loss: 4.389
+
+Val. Loss: 4.486
+For Epoch [78|100] : 
+
+Learning Rate is 0.006852862551827371 momentum is 0.927544849072605
+
+Train Loss: 4.381
+
+Val. Loss: 4.484
+For Epoch [79|100] : 
+
+Learning Rate is 0.00630230510953484 momentum is 0.9293892626146236
+
+Train Loss: 4.372
+
+Val. Loss: 4.479
+For Epoch [80|100] : 
+
+Learning Rate is 0.0057694147072584025 momentum is 0.9311744900929366
+
+Train Loss: 4.365
+
+Val. Loss: 4.478
+For Epoch [81|100] : 
+
+Learning Rate is 0.005255264515349789 momentum is 0.9328969362969856
+
+Train Loss: 4.357
+
+Val. Loss: 4.476
+For Epoch [82|100] : 
+
+Learning Rate is 0.0047608899638710445 momentum is 0.9345531324493432
+
+Train Loss: 4.350
+
+Val. Loss: 4.473
+For Epoch [83|100] : 
+
+Learning Rate is 0.0042872866573761825 momentum is 0.9361397431913695
+
+Train Loss: 4.344
+
+Val. Loss: 4.473
+For Epoch [84|100] : 
+
+Learning Rate is 0.003835408369896108 momentum is 0.9376535733001805
+
+Train Loss: 4.338
+
+Val. Loss: 4.470
+For Epoch [85|100] : 
+
+Learning Rate is 0.0034061651241646547 momentum is 0.9390915741234015
+
+Train Loss: 4.332
+
+Val. Loss: 4.469
+For Epoch [86|100] : 
+
+Learning Rate is 0.0030004213589539105 momentum is 0.9404508497187474
+
+Train Loss: 4.327
+
+Val. Loss: 4.468
+For Epoch [87|100] : 
+
+Learning Rate is 0.0026189941882095577 momentum is 0.9417286626860651
+
+Train Loss: 4.322
+
+Val. Loss: 4.467
+For Epoch [88|100] : 
+
+Learning Rate is 0.002262651755492148 momentum is 0.9429224396800933
+
+Train Loss: 4.319
+
+Val. Loss: 4.465
+For Epoch [89|100] : 
+
+Learning Rate is 0.0019321116870381853 momentum is 0.9440297765928368
+
+Train Loss: 4.315
+
+Val. Loss: 4.463
+For Epoch [90|100] : 
+
+Learning Rate is 0.0016280396465563958 momentum is 0.945048443395121
+
+Train Loss: 4.312
+
+Val. Loss: 4.462
+For Epoch [91|100] : 
+
+Learning Rate is 0.0013510479946696001 momentum is 0.9459763886275725
+
+Train Loss: 4.309
+
+Val. Loss: 4.462
+For Epoch [92|100] : 
+
+Learning Rate is 0.0011016945557019223 momentum is 0.9468117435319868
+
+Train Loss: 4.307
+
+Val. Loss: 4.462
+For Epoch [93|100] : 
+
+Learning Rate is 0.0008804814942948336 momentum is 0.9475528258147576
+
+Train Loss: 4.305
+
+Val. Loss: 4.462
+For Epoch [94|100] : 
+
+Learning Rate is 0.0006878543041143905 momentum is 0.9481981430347927
+
+Train Loss: 4.303
+
+Val. Loss: 4.462
+For Epoch [95|100] : 
+
+Learning Rate is 0.0005242009106862825 momentum is 0.9487463956090911
+
+Train Loss: 4.302
+
+Val. Loss: 4.462
+For Epoch [96|100] : 
+
+Learning Rate is 0.0003898508901654522 momentum is 0.9491964794299315
+
+Train Loss: 4.300
+
+Val. Loss: 4.462
+For Epoch [97|100] : 
+
+Learning Rate is 0.0002850748056135746 momentum is 0.9495474880883967
+
+Train Loss: 4.300
+
+Val. Loss: 4.462
+For Epoch [98|100] : 
+
+Learning Rate is 0.00021008366212105692 momentum is 0.949798714699762
+
+Train Loss: 4.299
+
+Val. Loss: 4.462
+For Epoch [99|100] : 
+
+Learning Rate is 0.00016502848187087977 momentum is 0.9499496533270657
+
+Train Loss: 4.299
+
+Val. Loss: 4.461
