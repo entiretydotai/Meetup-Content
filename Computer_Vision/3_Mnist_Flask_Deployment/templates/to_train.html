@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+	<script src={{url_for('static', filename='js/jquery/jquery.min.js')}} charset="utf-8"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+body{
+
+  font-family: "arial";
+  background-image: url({{url_for('static', filename='img/1_9Mjoc_J0JR294YwHGXwCeg.jpeg')}});
+}
+.big-box{
+  width:400px;
+  height: 200px;
+  margin:auto;
+  margin-top:100px;
+  background-color:rgba(255, 255, 255,0.97);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+  padding:10px;
+
+
+}
+
+.trained_epoch{
+	width:20px;
+	height:60px;
+	background-color: #d4d4d4;
+	margin:left:3px;
+	margin-right:3px;
+}
+.button_submit{
+
+  background-image:linear-gradient(#b3ffcc,#80e5ff);
+  opacity:0.85;
+}
+</style>
+</head>
+
+<body>
+
+<div class="big-box">
+
+<div style="margin:auto;text-align:center;margin-top:20px;" class="training">
+<button type="button" onclick="train()" class="button_submit">TRAIN MODEL</button>
+</div>
+
+
+<div style="display:flex;flex-direction:row;margin:auto;margin-top:10px;width:150px;" class="training">
+
+<div class="trained_epoch" id="first"></div>
+
+{% for i in range(nb_epoch) %}
+
+<div class="trained_epoch" id="{{i}}"></div>
+
+{% endfor %}
+</div>
+</div>
+
+
+</body>
+
+<script>
+	
+	var source = new EventSource('/state');
+	var source2 = new EventSource('/time_accuracy/');
+	
+	source.onmessage = function(event){
+		var epoch = event.data;
+		console.log(epoch);
+        $("#epoch").html("<p>" + epoch + "</p>");
+        $("#"+epoch).css("background-color", "green");
+
+};
+	source2.onmessage = function(event){
+			var data = event.data;
+			console.log(data);
+			var datajson = JSON.parse(data);
+			console.log(datajson);
+			acc=datajson['acc'];
+			console.log(acc);
+			time_delta=datajson['time_delta'];
+			console.log(time_delta); 
+			window.alert("The neural network is trained! \n It took:  " + time_delta + " seconds \n Accuracy:  "+ acc);
+			window.location.href = "/index/"
+        	      			
+   
+        	};
+
+	function train(){
+		$.get('/train/')
+		$("#first").css("background-color", "green");
+	}
+
+
+
+
+
+
+	</script>
+</html>

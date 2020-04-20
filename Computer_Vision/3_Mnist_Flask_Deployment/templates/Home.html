@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+	<script src={{url_for('static', filename='js/jquery/jquery.min.js')}} charset="utf-8"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+body{
+
+  font-family: "arial";
+  background-image: url({{url_for('static', filename='img/1_9Mjoc_J0JR294YwHGXwCeg.jpeg')}});
+}
+.big-box{
+  width:400px;
+  height: 200px;
+  margin:auto;
+  margin-top:100px;
+  background-color:rgba(255, 255, 255,0.97);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+  padding:10px;
+
+
+}
+
+.trained_epoch{
+	width:20px;
+	height:60px;
+	background-color: #d4d4d4;
+	margin:left:3px;
+	margin-right:3px;
+}
+.button_submit{
+
+  background-image:linear-gradient(#b3ffcc,#80e5ff);
+  opacity:0.95;
+}
+</style>
+</head>
+
+<body>
+
+<div class="big-box">
+	<div style="margin:auto;text-align:center;margin-top:20px; padding: 40px" class="training">
+	<a href="/index/"><button type="button" onclick="train()" class="button_submit">Check Out Your Model!</button></a>
+    </div>
+
+
+</body>
+</html>

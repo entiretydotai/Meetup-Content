@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <script src={{url_for('static', filename='js/lib/sketchpad.js')}}></script>
+    <script src={{url_for('static', filename='js/scripts/sketchpad.js')}}></script>
+    <script src={{url_for('static', filename='js/webpack.config.js')}}></script>
+    <script src={{url_for('static', filename='js/jquery/jquery.min.js')}} charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+
+body{
+
+  font-family: "arial";
+  background-image: url({{url_for('static', filename='img/1_9Mjoc_J0JR294YwHGXwCeg.jpeg')}});
+}
+
+.big-box{
+
+  width:750px;
+  height:100%;
+  margin:auto;
+  background-color:rgba(255, 255, 255,0.97);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+
+
+}
+
+.button_submit{
+  width:80px;
+  height:280px;
+  background-image:linear-gradient(#b3ffcc,#80e5ff);
+  opacity:0.85;
+}
+
+.flex-container{
+  width:700px;
+  height:300px;
+  margin:auto;
+  margin-top:10px;
+  display:flex;
+  flex-direction:row;
+
+
+}
+
+.undo{
+
+  background-color:#b3ffcc;
+  margin:auto;
+}
+.undo:hover{
+  background-color:#80e5ff;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="big-box">
+
+<div style="font-weight:bold;margin:auto;width:700px;margin-top:40px;padding-left:15px;">
+  <p>DRAW A DIGIT IN THE LEFT BOX<p>
+</div>
+
+<div class = "flex-container">
+
+  <div style="margin-right:10px;">
+
+    <canvas class="sketchpad" id="sketchpad" style="border:solid;"></canvas>
+  </div>
+
+  <div style="width:80px;height:280px;margin-right:10px;margin-left:10px;">
+    <button type="button" onclick="sendDraw()"  class="button_submit"><span class="glyphicon glyphicon-circle-arrow-right"></span>
+
+    </button>
+  </div>
+
+  <div style="margin-left:10px;">
+    <p style="width:280px;height:280px;border:solid;font-size:200px;text-align:center;vertical-align:center;padding:1px;">{{prediction}}</p>
+  </div>
+
+
+
+</div>
+
+
+
+<div style="margin:auto;width:700px;padding-left:120px;padding-bottom:10px;">
+  <button type="button" onclick="sketchpad.undo()"  class=undo style="">Undo</button>
+</div>
+
+</div>
+</body>
+<script>
+var sketchpad = new Sketchpad({
+  element: '#sketchpad',
+  width: 280,
+  height: 280
+
+});
+
+sketchpad.penSize = 15
+
+
+function sendDraw(){
+
+  var drawJSON = sketchpad.toJSON();
+  var canvas = document.getElementById('sketchpad');
+  var dataURL = canvas.toDataURL();
+
+
+  $.ajax({
+    type: "POST",
+    contentType: "application/json;charset=utf-8",
+    url: "/index/",
+    traditional: "true",
+    data: dataURL,
+    });
+
+  window.location.href = "/result/"
+
+
+
+}
+</script>
+
+
+
+</html>
