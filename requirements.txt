@@ -1,0 +1,16 @@
+numpy
+pandas
+torch
+torchvision
+torchtext
+matplotlib
+seaborn
+keras
+pillow
+tqdm
+termcolor
+spacy
+nltk
+sklearn
+gensim
+
