@@ -9,7 +9,8 @@ classified into multiple classes among the predefined classes.
 
 The Complete dataset description can be found on http://www.lamda.nju.edu.cn/data_MIMLimage.ashx
 
-The processed data can be downloaded from  [Image_data.zip](https://drive.google.com/uc?export=download&id=0B-K4r5JAJoL1MTRkM1RodlZ6d0ExakZoNmp5TFdOeTY0VFFj)
+The processed data can be downloaded from  [Image_data.zip](https://drive.google.com/uc?export=download&id=1xyDkR0grDfiXO19kyqOpAwC-TBzB1pbr) and [Drive Link](https://drive.google.com/file/d/1xyDkR0grDfiXO19kyqOpAwC-TBzB1pbr/view?usp=sharing)
+
 
 ## Data Description
 
